@@ -33,5 +33,8 @@
 	"scripts" : {
 		"test": "vendor/bin/phpunit",
 		"test-coverage": "vendor/bin/phpunit --coverage-clover build/logs/clover.xml"
+	},
+	"replace": {
+		"mindplay/filereflection": ">=1"
 	}
 }

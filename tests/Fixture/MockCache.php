@@ -4,8 +4,12 @@ namespace SyberIsle\FileReflection\Fixture;
 
 use SyberIsle\FileReflection\CacheProvider;
 
-class MockCache
-	implements CacheProvider
+/**
+ * Class MockCache
+ *
+ * @author Rasmus Schultz
+ */
+class MockCache implements CacheProvider
 {
 	public $cache = array();
 
