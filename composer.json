@@ -1,5 +1,5 @@
 {
-	"name": "mindplay/filereflection",
+	"name": "syberisle/filereflection",
 	"type": "library",
 	"description": "Complements the PHP reflection API with the missing ReflectionFile class",
 	"license": "LGPL-3.0+",
@@ -7,6 +7,10 @@
 		{
 			"name": "Rasmus Schultz",
 			"email": "rasmus@mindplay.dk"
+		},
+		{
+			"name": "David Lundgren",
+			"email": "dlundgren@syberisle.net"
 		}
 	],
 	"require": {
@@ -17,8 +21,8 @@
 		"mikey179/vfsstream": "^1.6"
 	},
 	"autoload": {
-		"psr-0": {
-			"mindplay\\filereflection": ""
+		"psr-4": {
+			"SyberIsle\\FileReflection\\": "src"
 		}
 	},
 	"autoload-dev": {

@@ -1,6 +1,6 @@
 <?php
 
-namespace mindplay\filereflection;
+namespace SyberIsle\FileReflection;
 
 /**
  * This interface defines an API to support caching in {@link ReflectionFile}.

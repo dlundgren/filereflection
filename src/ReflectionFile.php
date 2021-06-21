@@ -1,6 +1,6 @@
 <?php
 
-namespace mindplay\filereflection;
+namespace SyberIsle\FileReflection;
 
 use ReflectionClass;
 use InvalidArgumentException;
